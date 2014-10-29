@@ -6,6 +6,7 @@ $params = \yii\helpers\ArrayHelper::merge(
     require(__DIR__ . '/params-local.php')
 );
 
+
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
